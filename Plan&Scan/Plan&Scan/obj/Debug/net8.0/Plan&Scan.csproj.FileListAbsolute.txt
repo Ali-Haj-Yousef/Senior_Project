@@ -172,3 +172,5 @@ D:\Computer Science\Master 1\Semester 2\I439 Senior Project\Plan&Scan\Plan&Scan\
 D:\Computer Science\Master 1\Semester 2\I439 Senior Project\Plan&Scan\Plan&Scan\obj\Debug\net8.0\Plan&Scan.pdb
 D:\Computer Science\Master 1\Semester 2\I439 Senior Project\Plan&Scan\Plan&Scan\obj\Debug\net8.0\Plan&Scan.genruntimeconfig.cache
 D:\Computer Science\Master 1\Semester 2\I439 Senior Project\Plan&Scan\Plan&Scan\obj\Debug\net8.0\ref\Plan&Scan.dll
+D:\Computer Science\Master 1\Semester 2\I439 Senior Project\Plan&Scan\Plan&Scan\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\Computer Science\Master 1\Semester 2\I439 Senior Project\Plan&Scan\Plan&Scan\bin\Debug\net8.0\itextsharp.dll

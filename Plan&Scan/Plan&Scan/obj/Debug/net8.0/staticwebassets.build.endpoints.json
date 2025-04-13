@@ -167,6 +167,88 @@
       ]
     },
     {
+      "Route": "excel/StudentsExamRegistrationTemplate.g0so6xkgky.xlsx",
+      "AssetFile": "excel/StudentsExamRegistrationTemplate.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0M034jj478plGWLPPtuJ8XbkQY42DpsCgB3ZQFUED7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 08:41:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g0so6xkgky"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0M034jj478plGWLPPtuJ8XbkQY42DpsCgB3ZQFUED7Y="
+        },
+        {
+          "Name": "label",
+          "Value": "excel/StudentsExamRegistrationTemplate.xlsx"
+        }
+      ]
+    },
+    {
+      "Route": "excel/StudentsExamRegistrationTemplate.xlsx",
+      "AssetFile": "excel/StudentsExamRegistrationTemplate.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0M034jj478plGWLPPtuJ8XbkQY42DpsCgB3ZQFUED7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 08:41:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0M034jj478plGWLPPtuJ8XbkQY42DpsCgB3ZQFUED7Y="
+        }
+      ]
+    },
+    {
       "Route": "favicon.61n19gt1b8.ico",
       "AssetFile": "favicon.ico",
       "Selectors": [],
