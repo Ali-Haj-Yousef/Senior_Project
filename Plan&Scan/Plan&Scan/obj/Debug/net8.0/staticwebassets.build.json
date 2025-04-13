@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0BMeeLToyS0jnHK53r9Po7XO1Z7XgF6KMs2eXqBa03E=",
+  "Hash": "fwxGpIUxD5+jtshCMZDncg1Va02H5MAn5Su/9xM3DKQ=",
   "Source": "Plan&Scan",
   "BasePath": "_content/Plan&Scan",
   "Mode": "Default",
@@ -78,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan&Scan\\Plan&Scan\\wwwroot\\excel\\StudentsExamRegistrationTemplate.xlsx",
+      "SourceId": "Plan&Scan",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan&Scan\\Plan&Scan\\wwwroot\\",
+      "BasePath": "_content/Plan&Scan",
+      "RelativePath": "excel/StudentsExamRegistrationTemplate#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g0so6xkgky",
+      "Integrity": "0M034jj478plGWLPPtuJ8XbkQY42DpsCgB3ZQFUED7Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\excel\\StudentsExamRegistrationTemplate.xlsx"
     },
     {
       "Identity": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan&Scan\\Plan&Scan\\wwwroot\\favicon.ico",
@@ -1399,6 +1420,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+        }
+      ]
+    },
+    {
+      "Route": "excel/StudentsExamRegistrationTemplate.g0so6xkgky.xlsx",
+      "AssetFile": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan&Scan\\Plan&Scan\\wwwroot\\excel\\StudentsExamRegistrationTemplate.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0M034jj478plGWLPPtuJ8XbkQY42DpsCgB3ZQFUED7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 08:41:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g0so6xkgky"
+        },
+        {
+          "Name": "label",
+          "Value": "excel/StudentsExamRegistrationTemplate.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0M034jj478plGWLPPtuJ8XbkQY42DpsCgB3ZQFUED7Y="
+        }
+      ]
+    },
+    {
+      "Route": "excel/StudentsExamRegistrationTemplate.xlsx",
+      "AssetFile": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan&Scan\\Plan&Scan\\wwwroot\\excel\\StudentsExamRegistrationTemplate.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0M034jj478plGWLPPtuJ8XbkQY42DpsCgB3ZQFUED7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 08:41:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0M034jj478plGWLPPtuJ8XbkQY42DpsCgB3ZQFUED7Y="
         }
       ]
     },

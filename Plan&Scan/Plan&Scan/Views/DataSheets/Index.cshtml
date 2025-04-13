@@ -1,8 +1,8 @@
 ﻿@model List<StudentExamRegistration>
-<div class="card shadow border-0 mt-4">
+<div class="card shadow border-0 mt-4 text-center">
     <div class="card-header bg-info bg-gradient ml-0 py-3">
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="text-center">
                 <h2 class="text-white py-2">Your Data Sheet</h2>
             </div>
         </div>
@@ -57,5 +57,6 @@
                     }
             </tbody>
         </table>
+        <a asp-controller="DataSheets" asp-action="PDF" class="btn btn-primary">Generate PDF</a>
     </div>
 </div>
