@@ -167,88 +167,6 @@
       ]
     },
     {
-      "Route": "excel/StudentsExamRegistrationTemplate.g0so6xkgky.xlsx",
-      "AssetFile": "excel/StudentsExamRegistrationTemplate.xlsx",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9488"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0M034jj478plGWLPPtuJ8XbkQY42DpsCgB3ZQFUED7Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 08:41:49 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "g0so6xkgky"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0M034jj478plGWLPPtuJ8XbkQY42DpsCgB3ZQFUED7Y="
-        },
-        {
-          "Name": "label",
-          "Value": "excel/StudentsExamRegistrationTemplate.xlsx"
-        }
-      ]
-    },
-    {
-      "Route": "excel/StudentsExamRegistrationTemplate.xlsx",
-      "AssetFile": "excel/StudentsExamRegistrationTemplate.xlsx",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9488"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0M034jj478plGWLPPtuJ8XbkQY42DpsCgB3ZQFUED7Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 08:41:49 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-0M034jj478plGWLPPtuJ8XbkQY42DpsCgB3ZQFUED7Y="
-        }
-      ]
-    },
-    {
       "Route": "favicon.61n19gt1b8.ico",
       "AssetFile": "favicon.ico",
       "Selectors": [],
@@ -327,6 +245,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/dataSheetIcon.8wsqi4yorb.png",
+      "AssetFile": "images/dataSheetIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OOm3J8MHntneMpQeg25DWpXLRunl9CPjuOebdeMf6os=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 09:09:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8wsqi4yorb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OOm3J8MHntneMpQeg25DWpXLRunl9CPjuOebdeMf6os="
+        },
+        {
+          "Name": "label",
+          "Value": "images/dataSheetIcon.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/dataSheetIcon.png",
+      "AssetFile": "images/dataSheetIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OOm3J8MHntneMpQeg25DWpXLRunl9CPjuOebdeMf6os=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 09:09:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OOm3J8MHntneMpQeg25DWpXLRunl9CPjuOebdeMf6os="
+        }
+      ]
+    },
+    {
+      "Route": "images/excelIcon.miku90c286.svg",
+      "AssetFile": "images/excelIcon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"olMStxayCf3rxR8pFeht26rHBLkK3ZasbW7gV+5wabs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 17:33:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "miku90c286"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-olMStxayCf3rxR8pFeht26rHBLkK3ZasbW7gV+5wabs="
+        },
+        {
+          "Name": "label",
+          "Value": "images/excelIcon.svg"
+        }
+      ]
+    },
+    {
+      "Route": "images/excelIcon.svg",
+      "AssetFile": "images/excelIcon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"olMStxayCf3rxR8pFeht26rHBLkK3ZasbW7gV+5wabs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 17:33:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-olMStxayCf3rxR8pFeht26rHBLkK3ZasbW7gV+5wabs="
         }
       ]
     },

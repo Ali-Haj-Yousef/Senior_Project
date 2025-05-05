@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[4.5.3.8, )"
             },
+            "IronOcr": {
+              "target": "Package",
+              "version": "[2025.4.13, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.3, )"
@@ -67,6 +71,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Tesseract": {
+              "target": "Package",
+              "version": "[5.2.0, )"
             },
             "iTextSharp": {
               "target": "Package",

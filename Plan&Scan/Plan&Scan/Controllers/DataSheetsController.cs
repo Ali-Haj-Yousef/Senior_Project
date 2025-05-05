@@ -1,7 +1,9 @@
-﻿using System.Reflection.Metadata;
+﻿using System.Diagnostics;
+using System.Reflection.Metadata;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using Microsoft.AspNetCore.Mvc;
+using OfficeOpenXml.ConditionalFormatting;
 using Plan_Scan.Data;
 using Plan_Scan.Models;
 using Document = iTextSharp.text.Document;
@@ -19,7 +21,10 @@ namespace Plan_Scan.Controllers
         {
             List<StudentExamRegistration> registrations = _context.StudentExamRegistrations.ToList();
             return View(registrations);
+            
         }
+
+
         public IActionResult PDF()
         {
             using (MemoryStream ms  = new MemoryStream())
@@ -28,29 +33,32 @@ namespace Plan_Scan.Controllers
                 PdfWriter writer = PdfWriter.GetInstance(document, ms);
                 document.Open();
 
+                Font regularFont = FontFactory.GetFont(FontFactory.HELVETICA, 10);
+                Font boldFont = FontFactory.GetFont(FontFactory.HELVETICA_BOLD, 10);
                 // Create a table for the header
                 PdfPTable header = new PdfPTable(3);
                 header.WidthPercentage = 100;
 
                 // Left cell
-                PdfPCell LU = new PdfPCell(new Phrase("Lebanese University", new Font(Font.FontFamily.HELVETICA, 10, Font.BOLD)));
+                PdfPCell LU = new PdfPCell(new Phrase("Lebanese University", boldFont));
                 LU.Border = PdfPCell.NO_BORDER;
                 LU.HorizontalAlignment = Element.ALIGN_LEFT;
                 header.AddCell(LU);
 
                 // Center cell
-                PdfPCell title = new PdfPCell(new Phrase("Students Attendance Sheet", new Font(Font.FontFamily.HELVETICA, 10)));
+                PdfPCell title = new PdfPCell(new Phrase("Students Attendance Sheet", regularFont));
                 title.Border = PdfPCell.NO_BORDER;
                 title.HorizontalAlignment = Element.ALIGN_CENTER;
                 header.AddCell(title);
 
+
                 // Right cell
-                PdfPCell date = new PdfPCell(new Phrase("Date: 23/6/2025", new Font(Font.FontFamily.HELVETICA, 10)));
+                PdfPCell date = new PdfPCell(new Phrase("Date: 23/6/2025", regularFont));
                 date.Border = PdfPCell.NO_BORDER;
                 date.HorizontalAlignment = Element.ALIGN_RIGHT;
                 header.AddCell(date);
 
-                PdfPCell FS = new PdfPCell(new Phrase("Faculty of Science", new Font(Font.FontFamily.HELVETICA, 10)));
+                PdfPCell FS = new PdfPCell(new Phrase("Faculty of Science", regularFont));
                 FS.Border = PdfPCell.NO_BORDER;
                 FS.HorizontalAlignment = Element.ALIGN_LEFT;
                 header.AddCell(FS);
@@ -59,47 +67,86 @@ namespace Plan_Scan.Controllers
                 e1.Border = PdfPCell.NO_BORDER;
                 header.AddCell(e1);
 
-                PdfPCell e2 = new PdfPCell();
-                e2.Border = PdfPCell.NO_BORDER;
-                header.AddCell(e2);
+                PdfPCell time = new PdfPCell(new Phrase("Time: 8:00 AM", regularFont));
+                time.Border = PdfPCell.NO_BORDER;
+                time.HorizontalAlignment = Element.ALIGN_RIGHT;
+                header.AddCell(time);
 
                 // Add header table to the document
                 document.Add(header);
 
-                // Add some spacing
-                document.Add(new Paragraph("\n\n\n"));
 
-                PdfPTable table = new PdfPTable(10);
+                PdfPTable secondHeader = new PdfPTable(3);
+                secondHeader.WidthPercentage = 100;
+
+                document.Add(new Paragraph("\n"));
+
+                Chunk roomText = new Chunk("Room: ", regularFont);
+                Chunk roomValue = new Chunk("A", boldFont);
+                Phrase roomCellContent = new Phrase();
+                roomCellContent.Add(roomText);
+                roomCellContent.Add(roomValue);
+                PdfPCell roomCell = new PdfPCell(roomCellContent)
+                {
+                    Border = Rectangle.NO_BORDER,
+                    HorizontalAlignment = Element.ALIGN_LEFT
+                };
+                secondHeader.AddCell(roomCell);
+
+                // Course: I3300
+                Chunk courseText = new Chunk("Course: ", regularFont);
+                Chunk courseValue = new Chunk("I3300", boldFont);
+                Phrase courseCellContent = new Phrase();
+                courseCellContent.Add(courseText);
+                courseCellContent.Add(courseValue);
+                PdfPCell courseCell = new PdfPCell(courseCellContent)
+                {
+                    Border = Rectangle.NO_BORDER,
+                    HorizontalAlignment = Element.ALIGN_CENTER
+                };
+                secondHeader.AddCell(courseCell);
+
+                // Exam Code: 8 - 10
+                Chunk examCodeText = new Chunk("Exam Code: ", regularFont);
+                Chunk examCodeValue = new Chunk("8 - 10", boldFont);
+                Phrase examCodeCellContent = new Phrase();
+                examCodeCellContent.Add(examCodeText);
+                examCodeCellContent.Add(examCodeValue);
+                PdfPCell examCodeCell = new PdfPCell(examCodeCellContent)
+                {
+                    Border = Rectangle.NO_BORDER,
+                    HorizontalAlignment = Element.ALIGN_RIGHT
+                };
+                secondHeader.AddCell(examCodeCell);
+
+                document.Add(secondHeader);
+
+                // Add some spacing
+                document.Add(new Paragraph("\n\n"));
+
+                PdfPTable table = new PdfPTable(5);
                 table.WidthPercentage = 100;
 
-                table.AddCell(new PdfPCell(new Phrase("Student ID", new Font(Font.FontFamily.HELVETICA, 8, Font.BOLD))) { BackgroundColor = BaseColor.LIGHT_GRAY, Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
-                table.AddCell(new PdfPCell(new Phrase("Name", new Font(Font.FontFamily.HELVETICA, 8, Font.BOLD))) { BackgroundColor = BaseColor.LIGHT_GRAY, Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
-                table.AddCell(new PdfPCell(new Phrase("Course", new Font(Font.FontFamily.HELVETICA, 8, Font.BOLD))) { BackgroundColor = BaseColor.LIGHT_GRAY, Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
-                table.AddCell(new PdfPCell(new Phrase("Language", new Font(Font.FontFamily.HELVETICA, 8, Font.BOLD))) { BackgroundColor = BaseColor.LIGHT_GRAY, Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
-                table.AddCell(new PdfPCell(new Phrase("Room", new Font(Font.FontFamily.HELVETICA, 8, Font.BOLD))) { BackgroundColor = BaseColor.LIGHT_GRAY, Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
-                table.AddCell(new PdfPCell(new Phrase("Seat Number", new Font(Font.FontFamily.HELVETICA, 8, Font.BOLD))) { BackgroundColor = BaseColor.LIGHT_GRAY, Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
-                table.AddCell(new PdfPCell(new Phrase("Date", new Font(Font.FontFamily.HELVETICA, 8, Font.BOLD))) { BackgroundColor = BaseColor.LIGHT_GRAY, Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
-                table.AddCell(new PdfPCell(new Phrase("Time", new Font(Font.FontFamily.HELVETICA, 8, Font.BOLD))) { BackgroundColor = BaseColor.LIGHT_GRAY, Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
-                table.AddCell(new PdfPCell(new Phrase("Code Exam Day", new Font(Font.FontFamily.HELVETICA, 8, Font.BOLD))) { BackgroundColor = BaseColor.LIGHT_GRAY, Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
-                table.AddCell(new PdfPCell(new Phrase("Presence", new Font(Font.FontFamily.HELVETICA, 8, Font.BOLD))) { BackgroundColor = BaseColor.LIGHT_GRAY, Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
+                List<String> attributes = ["Student ID", "Name", "Language", "Seat Number", "Presence"];
+                foreach (String attribute in attributes)
+                    table.AddCell(new PdfPCell(new Phrase(attribute, new Font(Font.FontFamily.HELVETICA, 8, Font.BOLD))) { Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
 
                 List<StudentExamRegistration> registrations = _context.StudentExamRegistrations.ToList();
 
                 PdfPTable sigField = new PdfPTable(1);
-                sigField.AddCell(new PdfPCell(new Phrase(" ")));
-                foreach (var item in registrations)
+                PdfPCell sigCell = new PdfPCell(new Phrase(" ", new Font(Font.FontFamily.HELVETICA, 5)));
+                sigField.AddCell(sigCell);
+
+                
+
+                foreach (var reg in registrations)
                 {
-                    table.AddCell(new PdfPCell(new Phrase(item.StudentId.ToString(), new Font(Font.FontFamily.HELVETICA, 8))) { Padding = 5, VerticalAlignment = Element.ALIGN_CENTER });
-                    table.AddCell(new PdfPCell(new Phrase(item.Name, new Font(Font.FontFamily.HELVETICA, 8))) { Padding = 5, VerticalAlignment = Element.ALIGN_CENTER });
-                    table.AddCell(new PdfPCell(new Phrase(item.Course, new Font(Font.FontFamily.HELVETICA, 8))) { Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
-                    table.AddCell(new PdfPCell(new Phrase(item.Lang.ToString(), new Font(Font.FontFamily.HELVETICA, 8))) { Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
-                    table.AddCell(new PdfPCell(new Phrase(item.Room, new Font(Font.FontFamily.HELVETICA, 8))) { Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
-                    table.AddCell(new PdfPCell(new Phrase(item.SeatNb.ToString(), new Font(Font.FontFamily.HELVETICA, 8))) { Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
-                    table.AddCell(new PdfPCell(new Phrase(item.Date.ToString(), new Font(Font.FontFamily.HELVETICA, 8))) { Padding = 5, VerticalAlignment = Element.ALIGN_CENTER });
-                    table.AddCell(new PdfPCell(new Phrase(item.Time.ToString(), new Font(Font.FontFamily.HELVETICA, 8))) { Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
-                    table.AddCell(new PdfPCell(new Phrase(item.ExamCode, new Font(Font.FontFamily.HELVETICA, 8))) { Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
-                    table.AddCell(new PdfPCell(sigField){ Padding = 5, HorizontalAlignment = Element.ALIGN_CENTER, VerticalAlignment = Element.ALIGN_CENTER });
-                }
+                    
+                    foreach (string attributeValue in reg.AttributesValues)
+                        table.AddCell(new PdfPCell(new Phrase(attributeValue.ToString(), new Font(Font.FontFamily.HELVETICA, 8))) { Padding = 5, VerticalAlignment = Element.ALIGN_CENTER });
+                    //table.AddCell(new PdfPCell(sigField) { PaddingLeft = 50, PaddingRight = 50, PaddingTop = 5, PaddingBottom = 5 });
+                    table.AddCell(new PdfPCell());
+                }   
                 document.Add(table);
                 document.Close();
                 writer.Close();
@@ -107,5 +154,7 @@ namespace Plan_Scan.Controllers
                 return File(constant, "application/vnd", "firstPdf.pdf");
             }
         }
+
+        
     }
 }

@@ -3,7 +3,7 @@
     <div class="card-header bg-info bg-gradient ml-0 py-3">
         <div class="row">
             <div class="text-center">
-                <h2 class="text-white py-2">Your Data Sheet</h2>
+                <h2 class="text-white py-2">Data Sheet</h2>
             </div>
         </div>
     </div>
@@ -41,22 +41,23 @@
                 </tr>
             </thead>
             <tbody>
-                    @foreach (StudentExamRegistration registration in Model)
-                    {
-                        <tr>
-                            <td>@registration.StudentId</td>
-                            <td>@registration.Name</td>
-                            <td>@registration.Course</td>
-                            <td>@registration.Lang</td>
-                            <td>@registration.Room</td>
-                            <td>@registration.SeatNb</td>
-                            <td>@registration.Date</td>
-                            <td>@registration.Time</td>
-                            <td>@registration.ExamCode</td>                        
-                        </tr>
-                    }
+                @foreach (StudentExamRegistration registration in Model)
+                {
+                    <tr>
+                        <td>@registration.StudentId</td>
+                        <td>@registration.Name</td>
+                        <td>@registration.Course</td>
+                        <td>@registration.Lang</td>
+                        <td>@registration.Room</td>
+                        <td>@registration.SeatNb</td>
+                        <td>@registration.Date</td>
+                        <td>@registration.Time</td>
+                        <td>@registration.ExamCode</td>
+                    </tr>
+                }
             </tbody>
         </table>
+
         <a asp-controller="DataSheets" asp-action="PDF" class="btn btn-primary">Generate PDF</a>
     </div>
 </div>

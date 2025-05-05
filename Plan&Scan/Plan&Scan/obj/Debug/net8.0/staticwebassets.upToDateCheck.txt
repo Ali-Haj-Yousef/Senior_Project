@@ -1,6 +1,7 @@
 wwwroot\css\site.css
-wwwroot\excel\StudentsExamRegistrationTemplate.xlsx
 wwwroot\favicon.ico
+wwwroot\images\dataSheetIcon.png
+wwwroot\images\excelIcon.svg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
