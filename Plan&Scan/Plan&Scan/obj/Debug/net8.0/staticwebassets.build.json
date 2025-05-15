@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "chTVkl4rkzKgh8NyEWD7gT8/nMLUa2nseA84Tzsb23c=",
+  "Hash": "vz+y1P4uzb2YOicpO0Q7TNUSkDX7LL/5QHTcaytZQlE=",
   "Source": "Plan&Scan",
   "BasePath": "_content/Plan&Scan",
   "Mode": "Default",
@@ -99,48 +99,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan&Scan\\Plan&Scan\\wwwroot\\images\\dataSheetIcon.png",
-      "SourceId": "Plan&Scan",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan&Scan\\Plan&Scan\\wwwroot\\",
-      "BasePath": "_content/Plan&Scan",
-      "RelativePath": "images/dataSheetIcon#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "8wsqi4yorb",
-      "Integrity": "OOm3J8MHntneMpQeg25DWpXLRunl9CPjuOebdeMf6os=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\dataSheetIcon.png"
-    },
-    {
-      "Identity": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan&Scan\\Plan&Scan\\wwwroot\\images\\excelIcon.svg",
-      "SourceId": "Plan&Scan",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan&Scan\\Plan&Scan\\wwwroot\\",
-      "BasePath": "_content/Plan&Scan",
-      "RelativePath": "images/excelIcon#[.{fingerprint}]?.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "miku90c286",
-      "Integrity": "olMStxayCf3rxR8pFeht26rHBLkK3ZasbW7gV+5wabs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\excelIcon.svg"
     },
     {
       "Identity": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan&Scan\\Plan&Scan\\wwwroot\\js\\site.js",
@@ -1523,170 +1481,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "images/dataSheetIcon.8wsqi4yorb.png",
-      "AssetFile": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan&Scan\\Plan&Scan\\wwwroot\\images\\dataSheetIcon.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18038"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OOm3J8MHntneMpQeg25DWpXLRunl9CPjuOebdeMf6os=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 09:09:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8wsqi4yorb"
-        },
-        {
-          "Name": "label",
-          "Value": "images/dataSheetIcon.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OOm3J8MHntneMpQeg25DWpXLRunl9CPjuOebdeMf6os="
-        }
-      ]
-    },
-    {
-      "Route": "images/dataSheetIcon.png",
-      "AssetFile": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan&Scan\\Plan&Scan\\wwwroot\\images\\dataSheetIcon.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18038"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OOm3J8MHntneMpQeg25DWpXLRunl9CPjuOebdeMf6os=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 09:09:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-OOm3J8MHntneMpQeg25DWpXLRunl9CPjuOebdeMf6os="
-        }
-      ]
-    },
-    {
-      "Route": "images/excelIcon.miku90c286.svg",
-      "AssetFile": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan&Scan\\Plan&Scan\\wwwroot\\images\\excelIcon.svg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3472"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"olMStxayCf3rxR8pFeht26rHBLkK3ZasbW7gV+5wabs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 17:33:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "miku90c286"
-        },
-        {
-          "Name": "label",
-          "Value": "images/excelIcon.svg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-olMStxayCf3rxR8pFeht26rHBLkK3ZasbW7gV+5wabs="
-        }
-      ]
-    },
-    {
-      "Route": "images/excelIcon.svg",
-      "AssetFile": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan&Scan\\Plan&Scan\\wwwroot\\images\\excelIcon.svg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3472"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"olMStxayCf3rxR8pFeht26rHBLkK3ZasbW7gV+5wabs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 17:33:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-olMStxayCf3rxR8pFeht26rHBLkK3ZasbW7gV+5wabs="
         }
       ]
     },
@@ -6469,7 +6263,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 18:36:13 GMT"
+          "Value": "Sun, 11 May 2025 16:08:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6514,7 +6308,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 18:36:13 GMT"
+          "Value": "Sun, 11 May 2025 16:08:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6559,7 +6353,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 18:36:13 GMT"
+          "Value": "Sun, 11 May 2025 16:08:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6596,7 +6390,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 18:36:13 GMT"
+          "Value": "Sun, 11 May 2025 16:08:23 GMT"
         },
         {
           "Name": "Cache-Control",

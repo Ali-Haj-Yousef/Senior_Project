@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|d:\\computer science\\master 1\\semester 2\\i439 senior project\\plan\u0026scan\\plan\u0026scan\\controllers\\datasheetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|solutionrelative:plan\u0026scan\\controllers\\datasheetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|d:\\computer science\\master 1\\semester 2\\i439 senior project\\plan\u0026scan\\plan\u0026scan\\controllers\\plancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|solutionrelative:plan\u0026scan\\controllers\\plancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|d:\\computer science\\master 1\\semester 2\\i439 senior project\\plan\u0026scan\\plan\u0026scan\\models\\studentexamregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|solutionrelative:plan\u0026scan\\models\\studentexamregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|d:\\computer science\\master 1\\semester 2\\i439 senior project\\plan\u0026scan\\plan\u0026scan\\controllers\\scannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|solutionrelative:plan\u0026scan\\controllers\\scannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|d:\\computer science\\master 1\\semester 2\\i439 senior project\\plan\u0026scan\\plan\u0026scan\\models\\plansheetviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|solutionrelative:plan\u0026scan\\models\\plansheetviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|d:\\computer science\\master 1\\semester 2\\i439 senior project\\plan\u0026scan\\plan\u0026scan\\models\\fileuploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|solutionrelative:plan\u0026scan\\models\\fileuploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|d:\\computer science\\master 1\\semester 2\\i439 senior project\\plan\u0026scan\\plan\u0026scan\\views\\plan\\generatepdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|solutionrelative:plan\u0026scan\\views\\plan\\generatepdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|d:\\computer science\\master 1\\semester 2\\i439 senior project\\plan\u0026scan\\plan\u0026scan\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|solutionrelative:plan\u0026scan\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|d:\\computer science\\master 1\\semester 2\\i439 senior project\\plan\u0026scan\\plan\u0026scan\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|solutionrelative:plan\u0026scan\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|d:\\computer science\\master 1\\semester 2\\i439 senior project\\plan\u0026scan\\plan\u0026scan\\views\\upload\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|solutionrelative:plan\u0026scan\\views\\upload\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28CA6F5D-C042-482D-A89B-27C3F63B986C}|Plan\u0026Scan\\Plan\u0026Scan.csproj|d:\\computer science\\master 1\\semester 2\\i439 senior project\\plan\u0026scan\\plan\u0026scan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -30,8 +42,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Views\\Upload\\Index.cshtml",
+              "RelativeDocumentMoniker": "Plan\u0026Scan\\Views\\Upload\\Index.cshtml",
+              "ToolTip": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Views\\Upload\\Index.cshtml",
+              "RelativeToolTip": "Plan\u0026Scan\\Views\\Upload\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T18:07:41.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "Plan\u0026Scan\\Controllers\\UploadController.cs",
+              "ToolTip": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "Plan\u0026Scan\\Controllers\\UploadController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAA3wEMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T18:07:27.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Plan\u0026Scan\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Plan\u0026Scan\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T05:59:03.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlanController.cs",
+              "DocumentMoniker": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Controllers\\PlanController.cs",
+              "RelativeDocumentMoniker": "Plan\u0026Scan\\Controllers\\PlanController.cs",
+              "ToolTip": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Controllers\\PlanController.cs",
+              "RelativeToolTip": "Plan\u0026Scan\\Controllers\\PlanController.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAnwLoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T16:39:38.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GeneratePDF.cshtml",
+              "DocumentMoniker": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Views\\Plan\\GeneratePDF.cshtml",
+              "RelativeDocumentMoniker": "Plan\u0026Scan\\Views\\Plan\\GeneratePDF.cshtml",
+              "ToolTip": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Views\\Plan\\GeneratePDF.cshtml",
+              "RelativeToolTip": "Plan\u0026Scan\\Views\\Plan\\GeneratePDF.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T16:32:11.551Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -40,58 +114,35 @@
               "RelativeDocumentMoniker": "Plan\u0026Scan\\Models\\StudentExamRegistration.cs",
               "ToolTip": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Models\\StudentExamRegistration.cs",
               "RelativeToolTip": "Plan\u0026Scan\\Models\\StudentExamRegistration.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T08:59:30.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Plan\u0026Scan\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Plan\u0026Scan\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T08:25:14.836Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FileUploadViewModel.cs",
-              "DocumentMoniker": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Models\\FileUploadViewModel.cs",
-              "RelativeDocumentMoniker": "Plan\u0026Scan\\Models\\FileUploadViewModel.cs",
-              "ToolTip": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Models\\FileUploadViewModel.cs",
-              "RelativeToolTip": "Plan\u0026Scan\\Models\\FileUploadViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T16:19:55.466Z"
+              "WhenOpened": "2025-05-11T16:28:43.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ScannerController.cs",
-              "DocumentMoniker": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Controllers\\ScannerController.cs",
-              "RelativeDocumentMoniker": "Plan\u0026Scan\\Controllers\\ScannerController.cs",
-              "ToolTip": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Controllers\\ScannerController.cs",
-              "RelativeToolTip": "Plan\u0026Scan\\Controllers\\ScannerController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
+              "Title": "PlanSheetViewModel.cs",
+              "DocumentMoniker": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Models\\PlanSheetViewModel.cs",
+              "RelativeDocumentMoniker": "Plan\u0026Scan\\Models\\PlanSheetViewModel.cs",
+              "ToolTip": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Models\\PlanSheetViewModel.cs",
+              "RelativeToolTip": "Plan\u0026Scan\\Models\\PlanSheetViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T16:06:27.122Z"
+              "WhenOpened": "2025-05-11T16:26:17.8Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataSheetsController.cs",
-              "DocumentMoniker": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Controllers\\DataSheetsController.cs",
-              "RelativeDocumentMoniker": "Plan\u0026Scan\\Controllers\\DataSheetsController.cs",
-              "ToolTip": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\Controllers\\DataSheetsController.cs",
-              "RelativeToolTip": "Plan\u0026Scan\\Controllers\\DataSheetsController.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAAAIsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T15:38:37.897Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\appsettings.json",
+              "RelativeDocumentMoniker": "Plan\u0026Scan\\appsettings.json",
+              "ToolTip": "D:\\Computer Science\\Master 1\\Semester 2\\I439 Senior Project\\Plan\u0026Scan\\Plan\u0026Scan\\appsettings.json",
+              "RelativeToolTip": "Plan\u0026Scan\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-14T11:18:31.605Z"
             }
           ]
         }
