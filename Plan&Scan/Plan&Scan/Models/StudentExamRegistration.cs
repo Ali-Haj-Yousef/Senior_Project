@@ -49,7 +49,7 @@ namespace Plan_Scan.Models
         [Required]
         [StringLength(20)]
         [DisplayName("Exam Code")]
-        public string ExamCode { get; set; }
+        public int ExamCode { get; set; }
         [Required]
         public List<String> AttributesValues
         {
